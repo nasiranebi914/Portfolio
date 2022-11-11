@@ -1,38 +1,61 @@
 .home{
-    background: radial-gradient( 80% 80% ellipse at top right , #efdb5e, #f6eee3);
+    background: radial-gradient( 55% 50% ellipse at  right , #efdb5e, #f6eee3);
     height: 730px;
     display: flex;
     flex-direction: column;
+    
 }
 .about{
-    background: radial-gradient(25% 50% ellipse at center, #cabdd1, #f6eee3);
-    height: 500px;
+    background: radial-gradient(30% 50% ellipse at center, #efdb5e, #f6eee3);
     display: flex;
-}
-.skills{
-    background-color: #f6eee3;
-    height: 300px;
-    display: flex;
-}
-.projects{
-    background-color: #f6eee3;
-    margin-top: 10px;
-    padding-left: 8%;
-    padding-right: 8%;
-}
-.skills{
-    padding-left: 8%;
-    padding-right: 8%;
 }
 
-.img {
-    width: 480px;
+.myImg{
+    height: 400px;
+}
+.aboutLink {
+    color: darkslateblue;
+}
+.aboutLink:hover {
+    color: #cabdd1;
+}
+.skills{
+    background-color: #f6eee3;
+    padding-left: 8%;
+    padding-right: 8%;
+    background: radial-gradient(40% 50% ellipse at left, #cabdd1, #f6eee3);
+}
+.skill{
+    display: flex;
+}
+.skills p{
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #383838;
+    border-radius: 40px 40px 40px 40px;
+}
+.projects{
+    background: radial-gradient(50% 50% at right, #b0b0b0, #f6eee3);    margin-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+}
+
+.columns{
+    width: 60%;
+}
+.image {
+    width: 50%;
     position: relative;
     opacity: 1;
     display: block;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+}
+.projectContent{
+    text-align: left;
+    width: 50%;
 }
 .middle {
     transition: .5s ease;
@@ -43,20 +66,33 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
-.card-image:hover .image {
+.image:hover{
     opacity: 0.7;
 }
 
-.card-image:hover .middle {
+.image:hover .middle {
     opacity: 1;
 }
-.card-image:hover .button {
+.image:hover .button {
     opacity: 1;
 }
 .links{
     color: black;
 }
 .links:hover{
-    color: #cabdd1
+    color: #383838
+}
+#contact{
+    background: radial-gradient(80% 80% ellipse at bottom left, #efdb5e, #f6eee3);
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.hrline{
+    height: 1px;
+    width: 50%;
+    border: 0;
+    background: #383838;
 }
 

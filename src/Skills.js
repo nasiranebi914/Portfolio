@@ -1,61 +1,53 @@
 import React from "react";
+import { RiArrowRightSLine } from "react-icons/ri";
 
 function Skills() {
   return (
-    <div className="skills is-justify-content-space-between mt-6" id="skills">
-      <p className="is-size-3 mr-6">My web development skills</p>
-      <div className="block ml-6" style={{ width: "800px" }}>
-        <nav class="level is-mobile ">
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="title">HTML5</p>
-            </div>
+    <div id="skills" className="skills my-6 py-6">
+      <div className="skill my-6 is-justify-content-space-between is-align-items-center">
+        <div className="is-size-3">
+          <RiArrowRightSLine />
+          Web development skills
+        </div>
+        <div className="columns is-size-4">
+          <div className="column">
+            <p>HTML</p>
+            <p>React</p>
+            <p>Node.js</p>
           </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="title">CSS3</p>
-            </div>
+          <div className="column">
+            <p>CSS</p>
+            <p>Redux</p>
+            <p>Netlify</p>
           </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="title">JavaScript</p>
-            </div>
+          <div className="column">
+            <p>Javascript</p>
+            <p>Bulma</p>
+            <p>Heroku</p>
           </div>
-        </nav>
-        <nav class="level">
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="title">React.js</p>
-            </div>
+        </div>
+      </div>
+
+      <div className="skill my-6 is-justify-content-space-between is-align-items-center pt-6">
+        <div className="is-size-3">
+          <RiArrowRightSLine />
+          Language skills
+        </div>
+        <div className="columns is-size-4">
+          <div className="column">
+            <p>English</p>
+            <p>Uyghur</p>
+            <p>Japanese</p>
           </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="title">Redux</p>
-            </div>
+          <div className="column">
+            <p>German</p>
+            <p>Korean</p>
           </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="title">Bulma</p>
-            </div>
+          <div className="column">
+            <p>Chinese</p>
+            <p>Turkish</p>
           </div>
-        </nav>
-        <nav class="level">
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="title">Node.js</p>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="title">Netlify</p>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="title">Heroku</p>
-            </div>
-          </div>
-        </nav>
+        </div>
       </div>
     </div>
   );

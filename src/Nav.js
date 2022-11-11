@@ -3,7 +3,7 @@ import React from "react";
 function Nav() {
   return (
     <div
-      className="nav mr-6 mt-6"
+      className="nav mr-6 pr-6 mt-6 is-size-5"
       role="navigation"
       aria-label="main navigation"
     >

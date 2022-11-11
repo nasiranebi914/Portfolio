@@ -1,22 +1,24 @@
 import React from "react";
 import { SiLinkedin } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
-import { Parallax } from "react-scroll-parallax";
+
 function Contact() {
   return (
-    <div
-      id="contact"
-      className="section is-large is-justify-content-space-around	 ml-6 "
-    >
-      <p className="is-size-1">Contact Me</p>
+    <div id="contact" className="section is-large">
+      <div className="contactMe">
+        <p className="is-size-3">Get In Touch</p>
+      </div>
       <div>
-        <p className="mt-6">
-          I am open to Front-end/Full-stack positions in Tokyo OR global remote
-          positions
+        <p className="mt-6 is-size-5">
+          Interested in working with me?
+          <br /> I am open to Software Engineering job opportunities in
+          <strong> Tokyo, Japan</strong>
+          <br />I would love to discuss about any projects and talk about
+          creative things, just say Hi!
         </p>
-        <a className="email-link" href={`mailto:${"nasira914@icloud.com"}`}>
-          <button className="button mt-6 has-background-link-light">
-            Send Email
+        <a className="email-link" href={`mailto:${"nasiranebi914@gmail.com"}`}>
+          <button className="button mt-6 has-background-warning-light	">
+            Send me an Email!
           </button>
         </a>
         <p className="header mt-6">Follow Me</p>
