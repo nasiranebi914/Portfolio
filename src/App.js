@@ -29,7 +29,7 @@ function App() {
           >
             I am a junior software engineer specializing in Web-Development.
             <br />
-            Currently, I am based in Tokyo and looking for job oppertunities
+            Currently, I am based in Tokyo and looking for job opportunities
           </p>
         </div>
       </div>

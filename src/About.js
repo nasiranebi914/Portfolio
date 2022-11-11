@@ -21,19 +21,11 @@ function About() {
             </p>
             <p>
               I have ~1 year experience working as an intern on the cloud
-              computing team at a
-              <a
-                className="aboutLink"
-                href="https://www.ibm.com/de-de/cloud"
-                target="blank"
-              >
-                {" "}
-                huge coorperation
-              </a>
-              . At there, I worked on a few full-stack development projects.
-              This experience made me even more interested in web development,
-              where I realised that I can combine my artistic skills with my
-              technical skills to build something useful.
+              computing team at IBM Germany. At there, I worked on a few
+              full-stack development projects. This experience made me even more
+              interested in web development, where I realised that I can combine
+              my artistic skills with my technical skills to build something
+              useful.
               <p>
                 I've recently moved to Tokyo, Japan and I've been actively
                 recruiting for a Software Engineering role here.
