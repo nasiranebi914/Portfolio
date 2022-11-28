@@ -105,14 +105,14 @@ function Projects() {
                 API&nbsp;&nbsp;&nbsp;&nbsp;Netlify
               </p>
               <a
-                href="https://github.com/nasiranebi914/ShoppingStore_Cosmetics"
+                href="https://github.com/nasiranebi914/ecommerce-cosmeticStore"
                 target="blank"
                 className="links mr-4"
               >
                 <FaGithub />
               </a>
               <a
-                href="https://github.com/nasiranebi914/ShoppingStore_Cosmetics"
+                href="https://github.com/nasiranebi914/ecommerce-cosmeticStore"
                 target="blank"
                 className="links"
               >
@@ -125,7 +125,7 @@ function Projects() {
               <div className="middle">
                 <a
                   target="blank"
-                  href="https://github.com/nasiranebi914/ShoppingStore_Cosmetics"
+                  href="https://github.com/nasiranebi914/ecommerce-cosmeticStore"
                 >
                   <div class="button">Coming Soon, Check out GitHub</div>
                 </a>
